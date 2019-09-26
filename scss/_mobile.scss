@@ -22,14 +22,14 @@
     min-height: 0;
 
     &.show {
-        transform: translated3d(0,0,0);
+      transform: translated3d(0, 0, 0);
     }
   }
 
-  .menu-nav{
-      height: 75vh;
-      transform: translate3d(-100%, 0, 0);
-      font-size: 24px;
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
   }
 
   .menu-branding {
@@ -37,7 +37,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/branding_pic_small.png');
+      background: url("../img/branding_pic_small.png");
       width: 150px;
       height: 150px;
     }
@@ -45,15 +45,14 @@
 
   .about-info {
     grid-template-areas:
-      'bioimage'
-      'bio'
-      'job1'
-      'job2'
-      'job3';
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
 
     grid-template-columns: 1fr;
   }
-
 }
 //Smartphones
 @include mediaSm {
